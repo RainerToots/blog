@@ -1,5 +1,5 @@
 <?php namespace App;
-
+// yesy
 // Init composer auto-loading
 if (!@include_once("vendor/autoload.php")) {
 
