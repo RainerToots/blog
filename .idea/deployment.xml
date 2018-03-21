@@ -12,7 +12,7 @@
       <paths name="vpserver">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/vp/blog" local="$PROJECT_DIR$" web="/blog" />
+            <mapping deploy="/var/www/html/blog" local="$PROJECT_DIR$" web="/blog" />
           </mappings>
         </serverdata>
       </paths>
