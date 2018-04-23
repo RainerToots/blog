@@ -1,36 +1,115 @@
-<div class="container">
-
+<div class="row">
+    <div class="span8">
         <div class="row">
-            <div class="col-lg-8">
-
-                <h1><?=$post['post_subject'];?></h1>
-                <p class="lead"><i class="fa fa-user"></i> by <?=$post['name'];?>
-                </p>
-                <hr>
-                <p><i class="fa fa-calendar"></i> Posted on <?=$post['post_created'];?></p>
-				<p><i class="fa fa-tags"></i> Tags: <?foreach ($tags as $tag):?><a href="<?=BASE_URL?>tags/view/<?=$tag['tag_id']?>"><span class="badge badge-info"><?=$tag['tag_name']?></span></a> <?endforeach?></p>
-
-                <hr>
-                <p><?=$post['post_text'];?></p>
+            <div class="span8">
+                <h4><strong><a href="#">Title of the post</a></strong></h4>
             </div>
         </div>
-
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="media comment-box">
-            <div class="media-body">
-
-                <? foreach($comments as $comment): ?>
-                <h4 class="media-heading"><?=$comment['comment_subject']?></h4>
-                <p><?=$comment['comment_text']?></p>
-                <span class="badge badge-success">Commented on <?=$comment['comment_created']?></span> <span class="badge badge-success">Author: <?=$comment['comment_author']?></span>
-
-                <hr>
-                <? endforeach ?>
-
+        <div class="row">
+            <div class="span2">
+                <a href="#" class="thumbnail">
+                    <img src="http://placehold.it/260x180" alt="">
+                </a>
+            </div>
+            <div class="span6">
+                <p>
+                    Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.
+                </p>
+                <p><a class="btn" href="#">Read more</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span8">
+                <p></p>
+                <p>
+                    <i class="icon-user"></i> by <a href="#">John</a>
+                    | <i class="icon-calendar"></i> Sept 16th, 2012
+                    | <i class="icon-comment"></i> <a href="#">3 Comments</a>
+                    | <i class="icon-share"></i> <a href="#">39 Shares</a>
+                    | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Snipp</span></a>
+                    <a href="#"><span class="label label-info">Bootstrap</span></a>
+                    <a href="#"><span class="label label-info">UI</span></a>
+                    <a href="#"><span class="label label-info">growth</span></a>
+                </p>
             </div>
         </div>
     </div>
 </div>
+<hr>
+
+<div class="row">
+    <div class="span8">
+        <div class="row">
+            <div class="span8">
+                <h4><strong><a href="#">Title of the post</a></strong></h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span2">
+                <a href="#" class="thumbnail">
+                    <img src="http://placehold.it/260x180" alt="">
+                </a>
+            </div>
+            <div class="span6">
+                <p>
+                    Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span8">
+                <p></p>
+                <p>
+                    <i class="icon-user"></i> by <a href="#">Mark</a>
+                    | <i class="icon-calendar"></i> Sept 16th, 2012
+                    | <i class="icon-comment"></i> <a href="#">3 Comments</a>
+                    | <i class="icon-share"></i> <a href="#">39 Shares</a>
+                    | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Snipp</span></a>
+                    <a href="#"><span class="label label-info">Bootstrap</span></a>
+                    <a href="#"><span class="label label-info">UI</span></a>
+                    <a href="#"><span class="label label-info">growth</span></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+
+<div class="row">
+    <div class="span8">
+        <div class="row">
+            <div class="span8">
+                <h4><strong><a href="#">Title of the post</a></strong></h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span2">
+                <a href="#" class="thumbnail">
+                    <img src="http://placehold.it/260x180" alt="">
+                </a>
+            </div>
+            <div class="span6">
+                <p>
+                    Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.
+                </p>
+                <p><a href="#">Read more</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span8">
+                <p></p>
+                <p>
+                    <i class="icon-user"></i> by <a href="#">Mark</a>
+                    | <i class="icon-calendar"></i> Sept 16th, 2012
+                    | <i class="icon-comment"></i> <a href="#">3 Comments</a>
+                    | <i class="icon-share"></i> <a href="#">39 Shares</a>
+                    | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Snipp</span></a>
+                    <a href="#"><span class="label label-info">Bootstrap</span></a>
+                    <a href="#"><span class="label label-info">UI</span></a>
+                    <a href="#"><span class="label label-info">growth</span></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
