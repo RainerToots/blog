@@ -1,2 +1,2 @@
 # Veebiprogrammeerimine
-ISP eriala valikaine
+Rainer Toots ISP15
